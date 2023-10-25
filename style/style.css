@@ -4,7 +4,7 @@
 }
 
 body { /* Da ricontrollare */
-    background-color: grey;
+    background-color: rgb(226, 223, 223);
 }
 
 .header {
@@ -13,11 +13,99 @@ body { /* Da ricontrollare */
 
 .rettangolouno {
   background-color: rgb(255, 255, 255);
-  width: 700px;
+  width: 1100px;
   padding: 50px;
-  margin: 0px;
+  margin: -70px auto 0; /* 100px dall'alto, centrato orizzontalmente */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.check{
+  color: green;
+}
+
+.not{
+  color: red;
+}
+
+.rettangolodue {
+    
+  background-color: skyblue;
+    border: 1px skyblue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+  
+}
+
+.rettangolotre {
+
+background-color: rgb(255, 255, 255);
+text-align: central;
+border: 1px rgb(0, 0, 0);
+border-style: solid;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+}
+
+.bollino1 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #3498db; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
+.bollino2 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #8225da; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
+.bollino3 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #05a079; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
+.bollino4 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #ff8a05; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
+.bollino5 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #ec1499; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
+.bollino6 {
+  width: 100px; /* Larghezza del quadrato */
+  height: 20px; /* Altezza del quadrato */
+  background-color: #92e248; /* Colore di sfondo del quadrato */
+  border-radius: 15px; /* Raggio dell'arrotondamento dei bordi */
+  text-align: center;
+  color: white;
+}
+
