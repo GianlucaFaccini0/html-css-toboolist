@@ -9,11 +9,14 @@ body { /* Da ricontrollare */
 
 .rettangolouno {
     margin-top: 50px;
-    margin-left: 600px;
-    margin-right: 110px;
+    margin-left: 410px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     padding: 150px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 400px;
+    padding-right: 600px;
+    padding-top: 0;
+    padding-bottom: 0;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -24,19 +27,29 @@ body { /* Da ricontrollare */
 }
 
 .rettangolodue {
-    width: 80px;
-    height: 20px;
+    
     background-color: skyblue;
     text-align: central;
+    border: 1px skyblue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
     
 }
 
 .rettangolotre {
-    width: 80px;
-    height: 20px;
-    background-color: rgb(255, 255, 255);
-    border-color: 2px solid black;
-    text-align: central;
+ 
+  background-color: rgb(255, 255, 255);
+  text-align: central;
+  border: 1px rgb(0, 0, 0);
+  border-style: solid;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
     
 }
 
@@ -60,8 +73,20 @@ body { /* Da ricontrollare */
   color: black;
 }
 
-.textposition{
+.textposition1{
   margin: 80px;
-  margin-left: -300px;
+  margin-left: -200px;
+  padding: 0;
+}
+
+.textposition2{
+  margin: 80px;
+  margin-left: -200px;
+  padding: 0;
+}
+
+.textposition3{
+  margin: 80px;
+  margin-left: -200px;
   padding: 0;
 }
