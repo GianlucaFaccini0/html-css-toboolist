@@ -1,0 +1,50 @@
+* { /* Reset CSS (aggiungere descrizione succesivamente) */
+  margin: 0;
+  padding: 0;  
+}
+
+body { /* Da ricontrollare */
+    background-color: grey;
+}
+
+.rettangolouno {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 110px;
+    padding: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 0;
+    height: 0x;
+    background-color: rgb(255, 255, 255);
+}
+
+.rettangolodue {
+    width: 80px;
+    height: 20px;
+    background-color: skyblue;
+    text-align: central;
+}
+
+.rettangolotre {
+    width: 80px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    text-align: central;
+}
+
+.body {
+  background-color: rgb(216, 216, 216);
+}
+
+.header {
+  background-color: white;
+}
+
+.hrorizzontale {
+  color: black;
+}
