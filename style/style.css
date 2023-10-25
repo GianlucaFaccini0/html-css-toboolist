@@ -7,86 +7,17 @@ body { /* Da ricontrollare */
     background-color: grey;
 }
 
-.rettangolouno {
-    margin-top: 50px;
-    margin-left: 410px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding: 150px;
-    padding-left: 400px;
-    padding-right: 600px;
-    padding-top: 0;
-    padding-bottom: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 0;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-}
-
-.rettangolodue {
-    
-    background-color: skyblue;
-    text-align: central;
-    border: 1px skyblue;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    
-}
-
-.rettangolotre {
- 
-  background-color: rgb(255, 255, 255);
-  text-align: central;
-  border: 1px rgb(0, 0, 0);
-  border-style: solid;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-    
-}
-
-.check{
-    color: green;
-}
-
-.not{
-    color: red;
-}
-
-.body {
-  background-color: rgb(216, 216, 216);
-}
-
 .header {
   background-color: white;
 }
 
-.hrorizzontale {
-  color: black;
-}
-
-.textposition1{
-  margin: 80px;
-  margin-left: -200px;
-  padding: 0;
-}
-
-.textposition2{
-  margin: 80px;
-  margin-left: -200px;
-  padding: 0;
-}
-
-.textposition3{
-  margin: 80px;
-  margin-left: -200px;
-  padding: 0;
+.rettangolouno {
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  padding: 50px;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
