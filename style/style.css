@@ -18,8 +18,9 @@ body { /* Da ricontrollare */
     display: flex;
     justify-content: center;
     width: 0;
-    height: 0x;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
 }
 
 .rettangolodue {
@@ -39,8 +40,12 @@ body { /* Da ricontrollare */
     
 }
 
-.colonnaelements{
-    
+.check{
+    color: green;
+}
+
+.not{
+    color: red;
 }
 
 .body {
@@ -53,4 +58,10 @@ body { /* Da ricontrollare */
 
 .hrorizzontale {
   color: black;
+}
+
+.textposition{
+  margin: 80px;
+  margin-left: -300px;
+  padding: 0;
 }
