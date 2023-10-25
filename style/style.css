@@ -109,3 +109,18 @@ border-radius: 5px;
   color: white;
 }
 
+#cerchio {
+  width: 100px; /* Larghezza del cerchio */
+  height: 100px; /* Altezza del cerchio */
+  border: 2px solid rgb(44, 240, 18); /* Bordo nero da 2px */
+  background: transparent; /* Sfondo trasparente */
+  border-radius: 50%; /* Rende i bordi curvi per creare un cerchio */
+}
+
+#cerchio2 {
+  width: 100px; /* Larghezza del cerchio */
+  height: 100px; /* Altezza del cerchio */
+  border: 2px solid rgb(240, 18, 18); /* Bordo nero da 2px */
+  background: transparent; /* Sfondo trasparente */
+  border-radius: 50%; /* Rende i bordi curvi per creare un cerchio */
+}
